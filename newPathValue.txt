@@ -1,0 +1,32 @@
+
+
+setting BBB cpufreq to 300MHz
+
+Cpufreq set to 300MHz
+
+diplaying cpu freqencey
+
+cpufrequtils 008: cpufreq-info (C) Dominik Brodowski 2004-2009
+Report errors and bugs to cpufreq@vger.kernel.org, please.
+analyzing CPU 0:
+  driver: cpufreq-dt
+  CPUs which run at the same hardware frequency: 0
+  CPUs which need to have their frequency coordinated by software: 0
+  maximum transition latency: 300 us.
+  hardware limits: 300 MHz - 1000 MHz
+  available frequency steps: 300 MHz, 600 MHz, 720 MHz, 800 MHz, 1000 MHz
+  available cpufreq governors: conservative, ondemand, userspace, powersave, performance
+  current policy: frequency should be within 300 MHz and 1000 MHz.
+                  The governor "userspace" may decide which speed to use
+                  within this range.
+  current CPU frequency is 300 MHz.
+  cpufreq stats: 300 MHz:54.45%, 600 MHz:0.00%, 720 MHz:0.00%, 800 MHz:0.00%, 1000 MHz:45.55%  (1)
+
+
+location of this script is:
+/home/debian
+
+
+I have 26 items in my working directory.
+
+end of script.
